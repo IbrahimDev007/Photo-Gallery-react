@@ -51,11 +51,10 @@ const Login = () => {
 				<>
 					<button
 						onClick={handleGoogle}
-						className="btn btn-circle btn-primary btn-outline btn-lg text-xs "
+						className="btn btn-square btn-success btn-outline  text-xs flex items-center justify-center"
 					>
-						<FcGoogle />
+						<FcGoogle className="text-4xl" />
 					</button>
-					<h1 className="text-success">Login</h1>
 				</>
 			)}
 		</div>
