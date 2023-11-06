@@ -1,7 +1,9 @@
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+// import App from "./App.jsx";
 import "./index.css";
 import AuthProvider from "./Provider/AuthProvider.jsx";
+
+import App from "./Root";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<AuthProvider>
